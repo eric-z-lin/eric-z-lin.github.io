@@ -1,0 +1,144 @@
+body {
+    font-family: Avenir;
+    background-color: #121212;
+    color: #F0F4F8;
+}
+
+.container {
+    width: 890px;
+}
+
+#graphic {
+    padding-top: 60px;
+}
+
+#canvas {
+    /*margin-left: 60px;*/
+    /*margin-top: 0px;*/
+    border:2px solid;
+    border-color: white;
+}
+
+#sections {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    top: 0px;
+    z-index: 90;
+    padding-bottom: 200px;
+}
+
+.step {
+    margin-bottom: 200px;
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 23px;
+    color: #F0F2FC;
+}
+
+#sections .title {
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #829ABD;
+    line-height: 1.2em;
+}
+
+#extra-space {
+    height: 300px;
+}
+
+#vis {
+    display: inline-block;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    margin-left: 0;
+    /* height: 600px; */
+    /* width: 600px; */
+    /* background-color: #ddd; */
+}
+
+#vis .title {
+    font-size:100px;
+    text-anchor: middle;
+    fill: #486581;
+}
+
+#vis .sub-title {
+    font-size:64px;
+    text-anchor: middle;
+    fill: #F0F4F8;
+}
+
+#vis .sub-text {
+    font-size:38px;
+    text-anchor: middle;
+    fill: #F0F4F8;
+}
+
+#covid-title {
+    fill: #486581;
+    padding-left: 5vh;
+    padding-bottom: 10vh;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #666;
+    shape-rendering: crispEdges;
+}
+
+.highlight {
+    fill: #008080;
+    font-weight: bold;
+}
+
+.cough-arrow {
+    stroke: #000;
+    stroke-width: 4px;
+}
+
+.d3-tip-bars {
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    background-color: #627D98;
+    color: white;
+    border-radius: 5px;
+}
+
+.d3-tip-sales {
+    position: absolute;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    background-color: #627D98;
+    color: white;
+    border-radius: 5px;
+}
+
+.d3-tip-grid {
+    position: absolute;
+    border: 2px solid;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    background-color: #627D98;
+    color: white;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 12px;
+}
